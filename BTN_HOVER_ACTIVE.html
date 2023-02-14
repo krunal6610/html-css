@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+
+        *{box-sizing:border-box;}
+
+        .box{
+        height:210px;
+        width:100%;
+        display:flex;
+        float:left;
+        background-color:lightgray;
+         }
+
+         .box1{
+         height:100px;
+         width:200px;
+         font-size:20px;
+         color:white;
+         border:solid;
+         border-radius:10px;
+         background-color:red;
+         float:left;
+         }
+         .button1:hover{
+         background-color:green;
+         }
+         .button1:active{
+         background-color:blue;
+         }
+
+         .box2{
+         height:100px;
+         width:200px;
+         color:black;
+         font-size:20px;
+         border:solid;
+         border-radius:10px;
+         background-color:white;
+         float:left;
+         }
+         .button2:hover{
+         background-color:green;
+         }
+         .button2:active{
+         background-color:blue;
+         }
+
+         .box3{
+         height:100px;
+         width:200px;
+         font-size:20px;
+         color:white;
+         border:solid;
+         border-radius:10px;
+         background-color:blue;
+         float:left;
+         }
+         .button3:hover{
+         background-color:green;
+         }
+         .button3:active{
+         background-color:gold;
+         }
+
+
+    </style>
+
+</head>
+
+<body>
+<div class="box">
+
+    <div style="padding:20px; margin-top:40px;margin-left:40px">
+        <button type="button" class="box1 button1" onclick="alert('subscribed')">Subscribe</button>
+    </div>
+
+    <div style="padding:20px; margin-top:40px; margin-left:40px">
+        <button type="button" class="box2 button2" onclick="alert('joined')">Join</button>
+    </div>
+
+    <div style="padding:20px; margin-top:40px; margin-left:40px">
+        <button type="button" class="box3 button3" onclick="alert('tweet')">Tweet</button>
+    </div>
+
+</div>
+</body>
+</html>
